@@ -1,0 +1,76 @@
+body {
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+main {
+    width: 60%;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Alfa Slab One', cursive;;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Poiret One', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+/* Form Styling */
+button,
+input {
+    border: 1px solid #fff;
+    font-size: 1.25rem;
+}
+
+button {
+    border-radius: 0 10px 10px 0;
+    height: 3.75vh;
+    width: 20%;
+}
+
+button:hover {
+    font-weight: 700;
+}
+
+form {
+    width: 70%;
+}
+
+input {
+    border-radius: 10px 0 0 10px;
+    height: 3.25vh;
+    width: 60%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    main {
+        width: 80%;
+    }
+}
