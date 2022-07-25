@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Search NASA image databases">
-        <meta name="keywords" content="nasa, space images">
+        <meta name="description" content="Search Mars rover image databases">
+        <meta name="keywords" content="nasa, space images, Mars">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>NASA Image Search</title>
+        <title>NASA Mars Rover Image Search</title>
         <!-- External Links-->
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -16,19 +16,20 @@
     </head>
     <body>
         <main>
-            <h1>NASA Image Search</h1>
+            <h1>NASA Mars Rover Image Search</h1>
             <form>
-                <input type="text" name="search" placeholder="Jupiter" id="user-choice">
-                <button>Search NASA</button>
+                <input type="date" name="" value="" id="user-date">
+                <button id="curiosity">Curiosity</button> <button id="spirit">Spirit</button> <button id="opportunity">Opportunity</button>
             </form>
             <h2 id="search-result-text">Result</h2>
             <h3 id="explanation">Explanation</h3>
             <p>Sample explanation text</p>
 
             <h2>How to use this site</h2>
-            <p>This site queries NASA's images database. To use, enter a term in the search box, below, then click submit. 
-                If an image for your search term exists in NASA's images database, it will appear on the page, below. 
-                If multiple images appear, they will appear in a carousel; you will need to click the left and right arrows to see all the images.</p>
+            <p>This site queries NASA's Mars Rover program image database. To use, enter a date in the search box,, then click the name of the Rover you'd like images from. 
+                If an image for the date you entered exists for that Rover in NASA's public database, it will appear on the page, below. 
+                If multiple images appear, they will appear in a carousel; you will need to click the left and right arrows to see all of the images.</p>
         </main>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

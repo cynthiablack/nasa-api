@@ -45,13 +45,14 @@ p {
 button,
 input {
     border: 1px solid #fff;
+    border-radius:10px;
     font-size: 1.25rem;
 }
 
 button {
-    border-radius: 0 10px 10px 0;
     height: 3.75vh;
-    width: 20%;
+    margin: 1vh 1vh 0 0;
+    width: 25%;
 }
 
 button:hover {
@@ -63,9 +64,8 @@ form {
 }
 
 input {
-    border-radius: 10px 0 0 10px;
     height: 3.25vh;
-    width: 60%;
+    width: 80%;
 }
 
 /* Media Queries */
