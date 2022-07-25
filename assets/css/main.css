@@ -17,8 +17,18 @@ body {
     justify-content: center;
 }
 
+img {
+    float: left;
+    width: 50%; 
+}
+
 main {
     width: 60%;
+}
+
+section {
+    clear: both;
+    margin-top: 6vh;
 }
 
 /* Typography */
@@ -59,17 +69,13 @@ button:hover {
     font-weight: 700;
 }
 
-form {
-    width: 70%;
-}
-
 input {
     height: 3.25vh;
     width: 80%;
 }
 
-/* Media Queries */
-@media screen and (max-width: 900px) {
+/* Media Queries*/
+@media (max-width: 900px) {
     main {
         width: 80%;
     }

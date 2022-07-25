@@ -12,23 +12,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat&family=Poiret+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7fdac718eb.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <main>
             <h1>NASA Mars Rover Image Search</h1>
-            <form>
                 <input type="date" name="" value="" id="user-date">
                 <button id="curiosity">Curiosity</button> <button id="spirit">Spirit</button> <button id="opportunity">Opportunity</button>
-            </form>
-            <h2 id="search-result-text">Result</h2>
-            <h3 id="explanation">Explanation</h3>
-            <p>Sample explanation text</p>
-
+            <h2 id="search-result-text"></h2>
+            <img src="" alt="" id="imageOne">
+            <img src="" alt="" id="imageTwo">
+            <p id="explanation"></p>
+<section>
             <h2>How to use this site</h2>
             <p>This site queries NASA's Mars Rover program image database. To use, enter a date in the search box,, then click the name of the Rover you'd like images from. 
                 If an image for the date you entered exists for that Rover in NASA's public database, it will appear on the page, below. 
-                If multiple images appear, they will appear in a carousel; you will need to click the left and right arrows to see all of the images.</p>
+                If multiple images appear, the first two images will appear.</p>
+</section>
         </main>
         <script src="assets/js/main.js"></script>
     </body>
